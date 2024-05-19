@@ -6,7 +6,7 @@ function UserInfo() {
   const { currentUser } = useUserStore();
   return (
     <div className="userinfo">
-      <div className="user">
+      <div className="user user-flex">
         <img src={currentUser.avatar || "img/avatar.png"} alt="" />
         <h2>{currentUser.username}</h2>
       </div>
