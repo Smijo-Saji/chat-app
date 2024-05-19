@@ -183,13 +183,6 @@ function Chat({ setDtl }) {
             <EmojiPicker open={open} onEmojiClick={handleEmoji} />
           </div>
         </div>
-        {/* <button
-          className="sendButton"
-          onClick={handleSend}
-          disabled={isCurrentUserBlocked || isReceiverBlocked}
-        >
-          Send
-        </button> */}
         <img
           src="https://i.postimg.cc/d0cjCFrc/3682321.png"
           alt=""

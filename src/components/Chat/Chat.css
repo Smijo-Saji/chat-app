@@ -151,6 +151,7 @@
   }
   .emoji {
     position: relative;
+    left: 10px;
   }
   .picker {
     width: 300px;
@@ -183,7 +184,7 @@
       width: 300px !important;
     }
     .picker {
-      right: -30px;
+      right: -43px;
     }
     .sendButton {
       width: 25px;

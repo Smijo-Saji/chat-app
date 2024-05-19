@@ -14,7 +14,6 @@ function UserInfo() {
       <div className="icons">
         <img src="img/more.png" alt="" />
         <img src="img/edit.png" alt="" />
-
         <img src="img/logout.png" alt="" onClick={() => auth.signOut()} />
       </div>
     </div>
