@@ -24,14 +24,6 @@
     width: 20px;
     height: 20px;
     cursor: pointer;
-  }
-}
-@media (width<500px) {
-  .userinfo {
-    .abc {
-    }
-    .icons img {
-      margin-left: 10px;
-    }
+    margin-left: 10px;
   }
 }
