@@ -1,8 +1,7 @@
 .chat {
   flex: 2;
-  border-left: 1px solid #dddddd35;
-  border-right: 1px solid #dddddd35;
-  background-color: rgba(17, 25, 40, 0.75);
+
+  background-color: rgba(17, 25, 40, 0.944);
   border: 1px solid #dddddd35;
   border-radius: 5px;
   height: 100%;
@@ -31,13 +30,14 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    cursor: pointer;
   }
   .texts span {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
   }
   .texts p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #a5a5a5;
   }
@@ -66,7 +66,7 @@
         align-self: flex-end;
         .texts {
           p {
-            background-color: #5182feaa;
+            background-color: #583284;
           }
         }
       }
@@ -105,6 +105,7 @@
   }
   .bottom {
     padding: 10px 20px;
+
     display: flex;
     gap: 20px;
     align-items: center;
@@ -123,7 +124,7 @@
   }
   .bottom input {
     flex: 1;
-    background-color: rgba(17, 25, 40, 0.5);
+    background-color: #242b319e;
     border: none;
     outline: none;
     color: white;

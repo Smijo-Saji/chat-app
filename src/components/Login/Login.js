@@ -71,36 +71,6 @@ function Login() {
 
   return (
     <div className="login-1">
-      {/* <div className="item">
-        <h2>Welcome</h2>
-        <form onSubmit={handleLogin}>
-          <input type="email" placeholder="Email" name="email" />
-          <input type="password" placeholder="Password" name="password" />
-          <button disabled={loading}>{loading ? "Loading" : "Sign In"}</button>
-        </form>
-      </div>
-      <div className="seperator"></div>
-      <div className="item">
-        <h2>Create an Account</h2>
-        <form onSubmit={handleRegister}>
-          <label htmlFor="file">
-            <img src={avatar.url || "img/avatar.png"} alt="" />
-            Upload an image
-          </label>
-          <input
-            type="file"
-            id="file"
-            style={{ display: "none" }}
-            onChange={(e) => handleAvatar(e)}
-          />
-          <input type="text" placeholder="Username" name="username" />
-          <input type="email" placeholder="Email" name="email" />
-          <input type="password" placeholder="Password" name="password" />
-          <button disabled={loading}>{loading ? "Loading" : "Sign Up"}</button>
-        </form>
-      </div> */}
-
-      {/* ==== */}
       <div className="main">
         <input type="checkbox" id="chk" aria-hidden="true" />
         <div className="signup">
@@ -155,6 +125,9 @@ function Login() {
                 {loading ? "Loading" : "Sign In"}
               </button>
             </form>
+          </div>
+          <div className="loginimg">
+            <img src="https://i.postimg.cc/dVd3XwVn/Login-amico.png" alt="" />
           </div>
         </div>
       </div>

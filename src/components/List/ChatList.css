@@ -1,17 +1,19 @@
 .chatlist {
   flex: 1;
   overflow: scroll;
+
   .abc {
   }
   .search {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
     padding: 20px;
+    border-bottom: 1px solid #dddddd35;
   }
   .searchBar {
     flex: 1;
-    background-color: rgba(17, 25, 40, 0.877);
+    background-color: #242b319e;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -58,10 +60,11 @@
   }
   .texts span {
     font-weight: 500;
+    font-size: 18px;
   }
   .texts p {
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 200;
   }
 }
 ::-webkit-scrollbar {

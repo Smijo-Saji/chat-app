@@ -1,6 +1,6 @@
 .detail {
   flex: 1;
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.944);
   border: 1px solid #dddddd35;
   border-radius: 5px;
   .abc {
@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+
     border-bottom: 1px solid #dddddd35;
     .abc {
     }
@@ -50,7 +51,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        margin-top: 20px;
+        margin-top: 18px;
         .abc {
         }
         .photoItem {

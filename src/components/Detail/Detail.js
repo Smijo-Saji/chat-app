@@ -66,6 +66,15 @@ function Detail() {
               <img src="img/download.png" alt="" className="icon" />
             </div>
           </div>
+          <div className="photos">
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img src="https://i.postimg.cc/8Pb0FqpZ/download.jpg" alt="" />
+                <span>photo_71/01</span>
+              </div>
+              <img src="img/download.png" alt="" className="icon" />
+            </div>
+          </div>
         </div>
         <div className="option">
           <div className="title">
@@ -79,9 +88,6 @@ function Detail() {
             : isReceiverBlocked
             ? "Blocked"
             : "Block"}
-        </button>
-        <button className="logout" onClick={() => auth.signOut()}>
-          Logout
         </button>
       </div>
     </div>
