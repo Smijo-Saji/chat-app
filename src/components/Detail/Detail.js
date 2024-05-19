@@ -86,8 +86,8 @@ function Detail() {
           {isCurrentUserBlocked
             ? "You are Blocked!"
             : isReceiverBlocked
-            ? "Blocked"
-            : "Block"}
+            ? `⭕Unblock ${user?.username}`
+            : `🚫Block ${user?.username}`}
         </button>
       </div>
     </div>
