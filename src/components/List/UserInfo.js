@@ -14,12 +14,8 @@ function UserInfo() {
       <div className="icons">
         <img src="img/more.png" alt="" />
         <img src="img/edit.png" alt="" />
-        <div className="hover-text">
-          <img src="img/logout.png" alt="" onClick={() => auth.signOut()} />
-          <span class="tooltip-text" id="bottom">
-            Log-Out
-          </span>
-        </div>
+
+        <img src="img/logout.png" alt="" onClick={() => auth.signOut()} />
       </div>
     </div>
   );
